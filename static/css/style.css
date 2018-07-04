@@ -1,0 +1,32 @@
+#searchbar input {
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.1);
+}
+@media (max-width: 767px) {
+    #searchbar {
+        position: inherit;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
+@media (min-width: 767px) {
+    #searchbar{
+        position: fixed;
+        top:25%;
+        margin: auto;
+    }
+}
+#regform div{
+    width:80%;
+}
+#regform  {
+    margin: auto;
+}
+#footer{
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+}
+.form-group-sm div {
+    margin-top: 0.75em;
+}
